@@ -5,30 +5,37 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Business {
-	//Print Buisness name
-	System.out.println("St.Ann Wine Bar" + "\n");
-
+	
 	public static void main(String[] args) {
-		System.out.println(Business.name);
-		System.out.println("");
-		// create array list of employees
+		//Print Buisness name
+		System.out.println("St.Ann Wine Bar" + "\n");
+		// Import Scanner
+		Scanner input = new Scanner(System.in);
+		// utilize scanner to enter employee information
 		List<Employee> employees = new ArrayList<Employee>();
-		// adds new employee to list with state of each employee
-		employees.add(new Employee("Joe", "server", 40, 40, 20));
+		// create a do while loop so the user can enter multiple employees
+		String condition = "Continue";
+		do {
+			System.out.println("Enter Employee First and Last Name:");
+			String name = input.next() + " " + input.next();
+			System.out.println("Enter one word Employee Job Description:");
+			String jobDescription = input.next();
+			System.out.println("Enter Employee Sales:");
+			double sales = input.nextDouble();
+			System.out.println("Enter Employee hours worked:");
+			double hoursWorked = input.nextDouble();
+			System.out.println("Enter Employee tips:");
+			double tips = input.nextDouble();
+			//add employee to array list
+			employees.add(new Employee(name, jobDescription, sales, hoursWorked, tips));
+			//call condition for entering more employees or not
+			System.out.println("Enter add to add another Employee if not enter Done");
+			condition = input.next();
 
-		// create another employee object to array list
-		employees.add(new Employee("Brandon", "server", 40, 30, 18));
-		// for loop to print all objects states
-		for (int i = 0; i < employees.size(); i++) {
+		} while (condition.equals("add"));
 
-			System.out.println("Employee name is:" + " " + employees.get(i).getname());
-			System.out.println("Job Description:" + " " + employees.get(i).getjobDescription());
-			System.out.println("Tips amount:" + " " + employees.get(i).gettips());
-			System.out.println("Payout is:" + " $" + employees.get(i).getpayOut());
-			System.out.println("Sales are:" + " $" + employees.get(i).getsales());
-			System.out.println("Hours worked are:" + " " + employees.get(i).gethoursWorked());
-			System.out.println("");
-		}
+
+		
 		// create array list of employers
 		List<Employer> employers = new ArrayList<Employer>();
 		// adds new employee to list with state of each employee
