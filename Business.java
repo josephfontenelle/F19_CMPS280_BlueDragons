@@ -46,16 +46,13 @@ public class Business {
 		for (int i = 0; i < employers.size(); i++) {
 
 			System.out.println(
-					"Employers are:" + " " + employers.get(i).getname() + " " + employers.get(i).getjobDescription());
+					"Employers are:" + " " + employers.get(i).getname() 
+				+ " " + employers.get(i).getjobDescription());
 
 		}
-		// printing total from all employees
-		System.out.println(" ");
-		System.out.println("Total Payout:" + " " + employers.get(1).gettotalPayout(employees));
-		System.out.println("Total Tips:" + " " + employers.get(1).gettotalTips(employees));
-		System.out.println("Total Sales are:" + " $" + employers.get(1).gettotalSales(employees));
-		System.out.println("Total Hours worked are:" + " " + employers.get(1).gettotalHoursWorked(employees));
-		System.out.println("Total Profit:" + " " + employers.get(1).getProfit());
-		System.out.println("");
+		//print totalnumber of employees
+		System.out.println("Total Number of Employers:" + " " + employers.size());
+		//call printing method to print total from all employees - method in employer class
+			employers.get(0).printTotalData(employees);
 	}
 }
