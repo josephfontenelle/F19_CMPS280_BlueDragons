@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Business {
-	// Business Name
-	static String name = "St. Ann Wine Bar";
+	//Print Buisness name
+	System.out.println("St.Ann Wine Bar" + "\n");
 
 	public static void main(String[] args) {
 		System.out.println(Business.name);
