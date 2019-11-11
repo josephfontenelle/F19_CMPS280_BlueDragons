@@ -32,9 +32,23 @@ public class Business {
 			condition = input.next();
 
 		} while (condition.equals("add"));
-
+		// create array list of employers
+		List<Employer> employers = new ArrayList<Employer>();
+		// create a do while loop so the user can enter multiple employers
+		do {
+			System.out.println("Enter Employer First and Last Name:");
+			String name = input.next() + " " + input.next();
+			System.out.println("Enter one word Employer Job Description:");
+			String jobDescription = input.next() + "\n";
+			//add employers to array list
+			employers.add(new Employer(name, jobDescription));
+			//call condition
+			System.out.println("Enter add to add another EmployerS if not enter Done");
+			condition = input.next();
+			
+		} while (condition.equals("add"));
+		
 		for (int i = 0; i < employees.size(); i++) {
-
 			System.out.println("Employee name is:" + " " + employees.get(i).getname());
 			System.out.println("Job Description:" + " " + employees.get(i).getjobDescription());
 			System.out.println("Tips amount:" + " " + employees.get(i).gettips());
