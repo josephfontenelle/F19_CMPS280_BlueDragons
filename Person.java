@@ -3,7 +3,10 @@ package CMPS280;
 public class Person {
 	private String name;
 	private String jobDescription;
-
+	//default constructor
+	Person(){
+	}
+	//overloading constructor
 	Person(String name, String jobDescription) {
 		this.name = name;
 		this.jobDescription = jobDescription;
