@@ -1,8 +1,8 @@
 package CMPS280;
 
 public class Person {
-	private String name;
-	private String jobDescription;
+	String name;
+	protected String jobDescription;
 
 	Person(String name, String jobDescription) {
 		this.name = name;
