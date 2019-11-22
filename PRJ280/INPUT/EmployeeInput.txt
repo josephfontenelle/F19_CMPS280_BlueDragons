@@ -1,0 +1,13 @@
+Employees : 
+Employee Name is: Joseph Fontenelle
+Job Description is: Server
+Sales are: 234.34
+Hour(s) Worked: 34.3
+Tips: 345.4
+ 
+Employee Name is: Ben Fontenelle
+Job Description is: Bartender
+Sales are: 2345.0
+Hour(s) Worked: 244.3
+Tips: 233.4
+ 

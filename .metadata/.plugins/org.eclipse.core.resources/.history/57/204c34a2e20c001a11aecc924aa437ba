@@ -1,0 +1,5 @@
+package CMPS280;
+
+public interface EmployeePerformance {
+
+}

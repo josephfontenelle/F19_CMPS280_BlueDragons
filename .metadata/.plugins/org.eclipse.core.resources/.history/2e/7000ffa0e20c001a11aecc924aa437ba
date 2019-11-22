@@ -1,0 +1,5 @@
+package CMPS280;
+
+public abstract class Person {
+
+}
