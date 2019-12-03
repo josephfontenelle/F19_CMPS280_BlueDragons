@@ -1,0 +1,49 @@
+Employee name is: Sam Fontenelle
+Job Description: Server
+Tips amount: 156.23
+Payout is: $0.0
+Sales are: $643.45
+Hours worked are: 7.8
+Profit is: $643.45
+Pay rate is: 2.25
+
+Customer is Happy
+Sales Goal Met 
+
+Employee name is: Sally Mae
+Job Description: Bartender
+Tips amount: 250.56
+Payout is: $0.0
+Sales are: $1108.45
+Hours worked are: 7.23
+Profit is: $1108.45
+Pay rate is: 5.00
+
+Customer is Happy
+Sales Goal Met 
+
+Employee name is: Joseph Fontenelle
+Job Description: Server
+Tips amount: 1300.45
+Payout is: $0.0
+Sales are: $80.45
+Hours worked are: 10.55
+Profit is: $80.45
+Pay rate is: 2.25
+
+Customer is Happy
+Sales Goal Not Met 
+
+Employee name is: Garret Barkley
+Job Description: Bartender
+Tips amount: 13.43
+Payout is: $46.75
+Sales are: $1300.45
+Hours worked are: 8.3
+Profit is: $1253.7
+Pay rate is: 5.00
+
+Customer is not Happy
+Sales Goal Met 
+
+Total Number of Employees: 4

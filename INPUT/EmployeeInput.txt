@@ -1,0 +1,8 @@
+Sam Fontenelle Server
+643.45, 7.8, 156.23 
+Sally Mae Bartender
+1108.45, 7.23, 250.56 
+Joseph Fontenelle Server
+80.45, 10.55, 1300.45 
+Garret Barkley Bartender
+1300.45, 8.3, 13.43 

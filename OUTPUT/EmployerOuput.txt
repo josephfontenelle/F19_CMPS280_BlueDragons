@@ -1,0 +1,13 @@
+Employers are: Jeff James-Manager
+Pay Rate is : Salary  
+Employers are: Vicky Bayley-Owner
+Pay Rate is : Self-Employed 
+ 
+Total Payout: 46.75
+Total Tips: 1720.67
+Total Sales are: $3132.8
+Total Hours worked are: 33.88
+Total Profit: 3086.05
+Customers are Happy
+Sales Goal Met
+Total Number of Employers: 2
